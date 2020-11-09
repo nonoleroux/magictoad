@@ -1,0 +1,38 @@
+i.i.........iii..iic
+2020-11-09 14:17:48 
+ iii.........ii.........i.........ii.........ii.........i.........ii
+2020-11-09 14:41:24 
+ 
+2020-11-09 14:47:06 
+ iiiiiiiiiii.........i.........iiii
+2020-11-09 14:48:28 /Users/noemieleroux/Library/Application Support/pico-8/carts/magictoad.p8
+ irrrcccccccccccccccc..cccccccc.cc..rrrrrrrrrr_rrr_rrir_r___rcc.c.ccrr_____riiiii
+ iii.i....i..i...ii.ii..
+2020-11-09 14:54:47 
+ iiiiii
+2020-11-09 14:55:05 /Users/noemieleroux/Library/Application Support/pico-8/carts/magictoad.p8
+ r___rrr_cmmmmmmmmmmm..mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmcmmmmmgg.gg..gcc.........
+ ccccccccccc.cccrrc...ccc.crrrrrccccccccc..cc.cc.........c..c.cccccccccc.........
+ cccccccccccc.cccc.ccccccci.icciiccrrrrrccc.ccccc.c.......cc.c.ccccc..cccccgggggg
+ cccccrrccc.cccccccrrrrccccc......ccccccccrrrrrrrrrrrr_rcccgggggcrrrrrrrrccc.ccc.
+ ccirrrrrrrcccrrrrrrrr__ric....iirrr_________rrrrrr_rcgggggg.gggggggggggggggggggg
+ ggggggggggirrrrrrr__rggggg.mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm.mmmmmmm
+ mmmmmmmmmmmmmmmmmmmmgggggmmmmm.mm.irrrcccccccirrrrrrrrrrr___rrrrrrrrccccrrrrrrrr
+ __rrrrrrrrrcmgcc.cc.cc.........iic.........c.cccrrrrrrrrrr_____rccc...cc.c..cccc
+ .rrrrrrrrrrrrrrrrrrrr_rrrrrrr_rrrr_____rccc...cc........c.c....cc....cc..ccccccc
+ cccccccc.cccc.........c.cccccc.ccccccc..c.........cc..ccc.cccccccccccccccc.cccc.
+ c.......c.........cccc...c.........cccccc...cc.c..c.....cccccc.........cccc.cc.c
+ c.ccccc.cc.c.ccccccccccccccccccccc.....c........cccc.c.ccccc......c.........cccc
+ cc.cccc.ccccccccccccccccccccccccccc..cccccc.cccccccccc..c........c.ccccccccccccc
+ ccccccc.c.........c..cc....cc.c....c....cc.cc.cccc.cccccccccc.cccc....c..ccc.ccc
+ cccccccc.c.cc..cc....c.cccccccccccccccccccccccccccccccc.cccc.ccc.cc.cccccccccccc
+ c.cc......c.ccc..cc..ccc........cccccccccccccccc....cc.cc.c.cc.........cc..c....
+ c..c.........cccc.........c..c.........cccc......c........cc.........ccccccc.ccc
+ ..ccccccccc..cccc.....cccc.........cc..c.ccc.....c......ccc.c..cccccccccc.cccccc
+ cc.cccccccccc.ccccccccc.cccccc.c.........c..c..ccccc.ccc....cccccccccccccccccccc
+ ccc.c....ciiiicccccccccccccccccccccii..ccccccccccccc.ccccccccccccccccccc..cccccc
+ ccci...cci...cciccciiicccccccc.ccc...cccccccirrrrrrrcccccc..c.ccc.........c.....
+ ....ccccc..cccccccccccc.cccccccccc.ccccc..ccc.......cc.....cccccccccccccccc.cc.c
+ ccccc.cccccc.c.cc..ccccccccii.cccciii.c..i......cccccccccciri........c.......ccc
+ c.c..ccc.cccciiccir_i....cccccccciii......ccccc.cccccccccccciiic....cccciii.c..c
+ 
