@@ -16,37 +16,28 @@ cam_y=0
 newx=x
 newy=y
 
-x_grid=0
-y_grid=0
+x_grid=flr(x/8)
+y_grid=flr(y/8)
 
 end
 
 function _update()
-x_grid=flr(x/8)
-y_grid=flr(y/8)
-printh(fget(mget(flr((x+9)/8),
-																		y_grid,1)))
---if (btn(1)) then
---if not fget(mget(flr((x+9)/8),
---																		y_grid),0) then
-		--	x=x+1
---	end
---end
 
-if (btn(1) and
- not collision(x,y)) then
+newx=x
+newy=y
 
-x=x+1
-end
+if (btn(0) and x>0) then newx-=1 end
+if (btn(1) and x>0)	then newx+=1 end
+if (btn(3) and y<82) then newy+=1 end
+if (btn(2) and y>0) then newy-=1  end
 
-if (btn(0) and x>25) x=x-1	
-if (btn(3) and y<82) then
-	if not fget(mget(flr(x_grid),
-																		(y+8)/8),0) then
-			y=y+1
-	end
-end
-if (btn(2) and y>0) y=y-1
+if not
+check_collision(newx,newy)
+then
+x=newx
+y=newy
+
+end 
 end
 
 function _draw()
@@ -56,11 +47,6 @@ end
 camera(cam_x,cam_y)
 map(0,0,0,0)
 spr(1,x,y)
-printh(x)
-printh(y)
-print(x)
-print(y)
-
 end
 -->8
 function box_hit(
@@ -115,6 +101,33 @@ end
 
 return collision
 end
+-->8
+--
+function check_flag(flag,x,y)
+ local sprite=mget(x,y)
+ return fget(sprite,flag)
+ end
+ 
+function check_collision(x,y)
+collision=false
+
+	x_grid=flr(x/8)
+	y_grid=flr(y/8)
+	
+	x2_grid=flr((x+7)/8)
+	y2_grid=flr((y+7)/8)
+	
+	if check_flag(0,x_grid,y_grid) or
+				check_flag(0,x2_grid,y2_grid) or
+				check_flag(0,x_grid,y2_grid) or
+				check_flag(0,x2_grid,y_grid)
+	then
+				collision=true
+				
+		end
+		return collision
+		end
+				
 __gfx__
 00000000cc9999cccc9999cccc9999ccdddddddd3b3bb3bbcccccccccccccccccccccccccccccccccccccccccccccccc00000000000000000000000000000000
 00000000c999f99cc99f999cc99f999cd777777dbb333b33cccccccccccccccccccccccccccccc3333cccccccccccccc00000000000000000000000000000000
